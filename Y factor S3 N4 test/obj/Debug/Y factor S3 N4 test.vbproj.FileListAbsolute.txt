@@ -1,0 +1,12 @@
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\bin\Debug\Y factor S3 N4 test.exe.config
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\bin\Debug\Y factor S3 N4 test.exe
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\bin\Debug\Y factor S3 N4 test.pdb
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\bin\Debug\Y factor S3 N4 test.xml
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.vbprojAssemblyReference.cache
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y_factor_S3_N4_test.Form1.resources
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y_factor_S3_N4_test.Resources.resources
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.vbproj.GenerateResource.cache
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.vbproj.CoreCompileInputs.cache
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.exe
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.xml
+C:\Users\leoco\OneDrive\Desktop\Visual Basic 2019\Tests\Y factor S3 N4 test\Y factor S3 N4 test\obj\Debug\Y factor S3 N4 test.pdb

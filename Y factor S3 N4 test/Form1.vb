@@ -1,4 +1,6 @@
 ﻿Public Class Form1
+
+    Dim displayList As String = ""
     Private Sub Test1_Click(sender As Object, e As EventArgs) Handles Test1.Click
         Dim contName1 As String
         Dim cont1j1 As Char
@@ -23,7 +25,11 @@
             ans = "Too Bad " & contName1 & " you have " & score & " votes and are NOT through to the next round "
         End If
 
-        results.Text = ans
+        displayList = displayList & ans & vbNewLine
+
+        results.Text = displayList
+        clearInputs()
+        'Maybe put up message box with ans
 
     End Sub
 
@@ -43,6 +49,21 @@
         End If
         Return score
     End Function
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub clearInputs()
+        Name1.Text = ""
+        comboJ1.Text = ""
+        comboJ2.Text = ""
+        ComboJ3.Text = ""
+        ComboJ4.Text = ""
+
+
+    End Sub
+
 
 
 End Class

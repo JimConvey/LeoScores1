@@ -155,7 +155,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.comboJ1)
         Me.Panel1.Location = New System.Drawing.Point(40, 80)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(694, 120)
+        Me.Panel1.Size = New System.Drawing.Size(694, 264)
         Me.Panel1.TabIndex = 12
         '
         'results

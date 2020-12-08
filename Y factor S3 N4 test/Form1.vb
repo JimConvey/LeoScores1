@@ -1,6 +1,7 @@
 ﻿Public Class Form1
+    ' string to hold list of contestent results'
+    Dim displayList As String = "" ' 
 
-    Dim displayList As String = ""
     Private Sub Test1_Click(sender As Object, e As EventArgs) Handles Test1.Click
         Dim contName1 As String
         Dim cont1j1 As Char
@@ -17,22 +18,24 @@
         cont1j3 = ComboJ3.Text
         cont1j4 = ComboJ4.Text
         score = getScore(cont1j1, cont1j2, cont1j3, cont1j4)
+
+        ' boolean true if has won 
         HasWon = (score >= 2)
 
         If HasWon Then
-            ans = "Well Done " & contName1 & " you have " & score & " votes and are through to the next round "
+            ans = "Well Done " & contName1 & " you have " & score & " votes and are through to the next round " 'if have gotten two or more votes then you win '
         Else
-            ans = "Too Bad " & contName1 & " you have " & score & " votes and are NOT through to the next round "
+            ans = "Too Bad " & contName1 & " you have " & score & " votes and are NOT through to the next round " 'if you got less than two votes you have lost'
         End If
-
+        ' add results to list '
         displayList = displayList & ans & vbNewLine
 
         results.Text = displayList
         clearInputs()
-        'Maybe put up message box with ans
+
 
     End Sub
-
+    ' returns count of Y '
     Private Function getScore(j1, j2, j3, j4)
         Dim score = 0
         If j1 = "Y" Then
@@ -64,6 +67,7 @@
 
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
+    End Sub
 End Class

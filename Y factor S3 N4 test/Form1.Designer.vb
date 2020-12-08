@@ -40,7 +40,7 @@ Partial Class Form1
         '
         'Name1
         '
-        Me.Name1.Location = New System.Drawing.Point(-1, 34)
+        Me.Name1.Location = New System.Drawing.Point(17, 32)
         Me.Name1.Name = "Name1"
         Me.Name1.Size = New System.Drawing.Size(254, 26)
         Me.Name1.TabIndex = 0
@@ -153,9 +153,9 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.comboJ2)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.comboJ1)
-        Me.Panel1.Location = New System.Drawing.Point(40, 80)
+        Me.Panel1.Location = New System.Drawing.Point(40, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(694, 264)
+        Me.Panel1.Size = New System.Drawing.Size(694, 332)
         Me.Panel1.TabIndex = 12
         '
         'results
@@ -171,6 +171,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Test1)
